@@ -5,6 +5,8 @@ const ItemList = () => {
   const [items] = useState([
     { name: "りんご", price: 300 },
     { name: "バナナ", price: 200 },
+    { name: "ぶどう", price: 2000 },
+    { name: "メロン", price: 10000 },
   ]);
   return (
     // ここにItemコンポーネントを並べる
